@@ -19,7 +19,7 @@
 }
 */
 
-function playerState() {
+function playerState(XOBoard) {
     //////////////////// WORKING CODE
     var move = 0;
     move = parseInt(window.prompt("Select a move: [0-8]"));
