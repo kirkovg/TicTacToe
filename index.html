@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+    <script src="jquery/jquery-1.11.3.js"></script>
+    <script src="jquery/jquery-ui-1.12.0.custom/jquery-ui.js"></script>
+    <script src="minmax.js"></script>
+    <link href="jquery/jquery-ui-1.12.0.custom/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="content">
+    <h2 id="header">The unbeatable Tic Tac Toe</h2>
+
+
+    <table id="XOBoard">
+        <tr>
+            <td id="tile0" value="0" selectedTile="false" class="ui-state-default"></td>
+            <td id="tile1" value="1" selectedTile="false" class="ui-state-default"></td>
+            <td id="tile2" value="2" selectedTile="false" class="ui-state-default"></td>
+        </tr>
+        <tr>
+            <td id="tile3" value="3" selectedTile="false" class="ui-state-default"></td>
+            <td id="tile4" value="4" selectedTile="false" class="ui-state-default"></td>
+            <td id="tile5" value="5" selectedTile="false" class="ui-state-default"></td>
+        </tr>
+        <tr>
+            <td id="tile6" value="6" selectedTile="false" class="ui-state-default"></td>
+            <td id="tile7" value="7" selectedTile="false" class="ui-state-default"></td>
+            <td id="tile8" value="8" selectedTile="false" class="ui-state-default"></td>
+        </tr>
+    </table>
+
+    <button id="playAgain" class="ui-button ui-widget ui-corner-all">Play again?</button>
+
+    <div id="options">
+        <label>Computer plays as O, you play as X</label><br/><br/>
+        <label>Do you wanna go first or second?</label><br/>
+        <input type="radio" name="option" id="first" value="1" checked="checked"/> First
+        <input type="radio" name="option" id="second" value="2"/> Second <br/><br/>
+        <button id="play" class="ui-button ui-widget ui-corner-all">Play?</button><br/>
+    </div>
+
+</div>
+</body>
+</html>
