@@ -3,7 +3,7 @@ Simple javascript TicTacToe
 
 ## Built with
 * vanilla javascript
-* jquery
+* [jQuery] (https://jquery.com/)
 
 ### TODO
 * add click interaction without console
